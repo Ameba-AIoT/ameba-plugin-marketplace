@@ -1,8 +1,8 @@
 # Ameba IoT SDK — Claude Code Plugin Marketplace
 
-Claude Code plugin marketplace for Realtek Ameba IoT SDK development. Installs AI skills **and** MCP servers in one step.
+Full Claude Code experience for Realtek Ameba IoT SDK development — installs AI skills **and** MCP servers in one step.
 
-> **Not using Claude Code?** Get the raw skill files from [Ameba-AIoT/skills](https://github.com/Ameba-AIoT/skills) instead.
+> **Not using Claude Code?** Use `npx skills add Ameba-AIoT/skills` instead — works with Cursor, Windsurf, Codex, and other AI tools.
 
 ---
 
@@ -36,7 +36,6 @@ After installation you get:
 | Requirement | Details |
 |-------------|---------|
 | `realmcu-ask-ai-docs` MCP | One-time GitHub OAuth. After install, run `/mcp` — if status shows `△ needs authentication`, follow the prompt. |
-| `AMEBA_SDK_ROOT` *(optional)* | Only needed for local SDK build / flash features. Set before starting Claude Code: `export AMEBA_SDK_ROOT=<absolute path to your SDK>`. Other features are unaffected if unset. |
 
 ---
 
