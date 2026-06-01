@@ -1,0 +1,28 @@
+{
+  "name": "ameba-aiot",
+  "owner": {
+    "name": "Realtek Ameba-IoT"
+  },
+  "description": "Realtek Ameba IoT SDK Claude Code plugin marketplace — skills and MCP servers for ameba-rtos development",
+  "plugins": [
+    {
+      "name": "ameba-rtos-dev",
+      "source": "./plugins/ameba-rtos-dev",
+      "description": "Ameba RTOS SDK skill bundle (ameba-rtos-overview / ameba-quickstart-rmesh) with docs-query MCP preconfigured",
+      "category": "embedded",
+      "keywords": [
+        "ameba",
+        "realtek",
+        "rtl8730e",
+        "rtl8721f",
+        "rtl8720e",
+        "rtl8721d",
+        "rtl8726e",
+        "rtl8713e",
+        "rtl8710e",
+        "iot",
+        "rtos"
+      ]
+    }
+  ]
+}
