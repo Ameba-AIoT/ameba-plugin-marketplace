@@ -2,7 +2,7 @@
 
   <img src="./Realtek_Symbol_SVG.svg" alt="Ameba-AIoT Plugins" />
 
-  <h3>Full Claude Code experience for Realtek Ameba IoT SDK — skills + MCP in one install</h3>
+  <h3>AI skills for Realtek Ameba IoT SDK — Claude Code (skills + MCP), Cursor, Windsurf, Codex and more</h3>
 
   <p>
     <a href="./LICENSE">
@@ -11,9 +11,10 @@
     <a href="https://github.com/Ameba-AIoT/ameba-plugin-marketplace/stargazers">
       <img src="https://img.shields.io/github/stars/Ameba-AIoT/ameba-plugin-marketplace?style=flat-square&color=0078af" alt="Stars" />
     </a>
-    <img src="https://img.shields.io/badge/Claude_Code-plugin_ready-8A2BE2?style=flat-square" alt="Claude Code plugin" />
-    <img src="https://img.shields.io/badge/MCP-realmcu--ask--ai--docs-0078af?style=flat-square" alt="MCP server" />
-    <img src="https://img.shields.io/badge/Realtek_Ameba-RTL8730E_%7C_RTL8721F_%7C_more-0078af?style=flat-square" alt="Realtek Ameba chips" />
+    <a href="https://www.skills.sh/"><img src="https://img.shields.io/badge/npx_skills-compatible-brightgreen?style=flat-square" alt="npx skills compatible" /></a>
+    <a href="https://claude.com/plugins"><img src="https://img.shields.io/badge/Claude_Code-plugin_ready-8A2BE2?style=flat-square" alt="Claude Code plugin" /></a>
+    <a href="https://modelcontextprotocol.io/docs/getting-started/intro"><img src="https://img.shields.io/badge/MCP-realmcu--ask--ai--docs-0078af?style=flat-square" alt="MCP server" /></a>
+    <a href="https://aiot.realmcu.com/zh/home.html"><img src="https://img.shields.io/badge/Realtek_Ameba-RTL8730E_%7C_RTL8721F_%7C_more-0078af?style=flat-square" alt="Realtek Ameba chips" /></a>
   </p>
 
   <a href="./README.md">English</a>
@@ -24,11 +25,24 @@
 
 </div>
 
-> **Not using Claude Code?** Use `npx skills add https://github.com/Ameba-AIoT/skills` instead — works with Cursor, Windsurf, Codex, and other AI tools.
+---
+
+## 🚀 Installation
+
+### Method 1 — npx (Cursor, Windsurf, Codex, and others)
+
+```bash
+# Install all skills
+npx skills add https://github.com/Ameba-AIoT/ameba-plugin-marketplace
+
+# Install a specific skill
+npx skills add https://github.com/Ameba-AIoT/ameba-plugin-marketplace --skill ameba-rtos-overview
+npx skills add https://github.com/Ameba-AIoT/ameba-plugin-marketplace --skill ameba-quickstart-rmesh
+```
 
 ---
 
-## ⚡ Quick Install
+### Method 2 — Claude Code Plugin (skills + MCP)
 
 ```
 /plugin marketplace add https://github.com/Ameba-AIoT/ameba-plugin-marketplace
@@ -42,9 +56,7 @@ After installation you get:
 
 ---
 
-## 📦 Available Plugin
-
-### `ameba-rtos-dev`
+## 📦 Available Skills
 
 | Skill | Triggers on |
 |-------|-------------|
@@ -57,7 +69,7 @@ After installation you get:
 
 | Requirement | Details |
 |-------------|---------|
-| `realmcu-ask-ai-docs` MCP | One-time GitHub OAuth. After install, run `/mcp` — if status shows `△ needs authentication`, follow the prompt. |
+| `realmcu-ask-ai-docs` MCP | Claude Code only. One-time GitHub OAuth. After install, run `/mcp` — if status shows `△ needs authentication`, follow the prompt. |
 
 ---
 
